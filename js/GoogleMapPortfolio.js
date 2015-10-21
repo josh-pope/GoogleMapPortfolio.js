@@ -5,6 +5,7 @@
  *	joshwpope@gmail.com
  *
  */
+/*jshint expr: true */
 (function($) {
 
 var iOS, genericTimeout;
