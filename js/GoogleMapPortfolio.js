@@ -293,7 +293,7 @@ $.fn.GoogleMapPortfolio.app.prototype = {
         });
 
         $("#road_map").bind('click',function() {
-            self.view_default ? ($.fn.GoogleMapPortfolio.app.map.setMapTypeId(google.maps.MapTypeId.TERRAIN), self.view_default = !1) : ($.fn.GoogleMapPortfolio.app.map.setMapTypeId("portfolio_google_map"), self.view_default = !0)
+            ref.view_default ? ($.fn.GoogleMapPortfolio.app.map.setMapTypeId(google.maps.MapTypeId.TERRAIN), ref.view_default = !1) : ($.fn.GoogleMapPortfolio.app.map.setMapTypeId("portfolio_google_map"), ref.view_default = !0)
         })
     }
 }
